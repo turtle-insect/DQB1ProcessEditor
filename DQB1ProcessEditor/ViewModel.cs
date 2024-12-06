@@ -7,14 +7,14 @@ namespace DQB1ProcessEditor
 {
 	internal class ViewModel
 	{
-		public Info Info { get; private set; } = Info.Instance;
+		public Info Info { get; init; } = Info.Instance;
 		public uint Count { get; set; } = 500;
 		public uint ImportTemplateItemIndex { get; set; } = 0;
-		public ObservableCollection<ItemInfo> Items { get; private set; } = new ObservableCollection<ItemInfo>();
+		public ObservableCollection<ItemInfo> Items { get; init; } = new();
 
-		public ICommand ImportTemplateItemCommand { get; private set; }
-		public ICommand WriteItemCountCommand { get; private set; }
-		public ICommand ClearItemCommand { get; private set; }
+		public ICommand ImportTemplateItemCommand { get; init; }
+		public ICommand WriteItemCountCommand { get; init; }
+		public ICommand ClearItemCommand { get; init; }
 		public String Filter
 		{
 			get => mFilter;
