@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Memory.dll.x64" Version="1.2.27" />
+    <Reference Include="Memory">
+      <HintPath>external\Memory.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
