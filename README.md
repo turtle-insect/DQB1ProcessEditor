@@ -9,7 +9,7 @@ STEAM ドラゴンクエストビルダーズ1のプロセスメモリ編集Tool
 
 # 実行に必要
 * Windows マシン
-* [.NET 10](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)の導入
+* [.NET 11](https://dotnet.microsoft.com/en-us/download/dotnet/11.0)の導入
 
 # ソフト
 https://store.steampowered.com/app/2436570
